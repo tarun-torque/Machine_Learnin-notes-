@@ -102,3 +102,4 @@ print(a.shape) #(4,3)
 print(a.reshape(a))
 
 
+
