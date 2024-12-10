@@ -36,8 +36,9 @@ titanic = sns.load_dataset('titanic')
 
 
 # Bar chart
-# sns.barplot(data=titanic,x='sex',y='survived',hue='who')
-# plt.show()
+sns.barplot(data=titanic,x='sex',y='survived',hue='who')
+plt.show()
+
 
 
 
